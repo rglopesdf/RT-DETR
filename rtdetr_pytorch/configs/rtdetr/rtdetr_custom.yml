@@ -1,8 +1,8 @@
 __include__: [
   '../dataset/coco_detection_custom.yml',
   '../runtime.yml',
-#  './include/dataloader.yml',
-  './include/optimizer.yml',
+  './include/dataloader.yml',
+  './include/optimizer_custom.yml',
   './include/rtdetr_r50vd.yml',
 ]
 
