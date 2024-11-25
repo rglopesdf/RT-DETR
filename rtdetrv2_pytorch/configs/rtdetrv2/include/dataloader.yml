@@ -38,7 +38,7 @@ val_dataloader:
   num_workers: 4
 
 
-  test_dataloader:
+test_dataloader:
   dataset: 
     transforms:
       ops: 
