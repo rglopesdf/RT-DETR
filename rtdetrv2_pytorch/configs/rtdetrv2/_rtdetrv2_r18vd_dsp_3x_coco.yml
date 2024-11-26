@@ -30,7 +30,7 @@ RTDETRTransformerv2:
   cross_attn_method: discrete
 
 
-epoches: 36
+#epoches: 36
 
 optimizer:
   type: AdamW
@@ -40,10 +40,10 @@ optimizer:
       weight_decay: 0.
 
 
-train_dataloader: 
-  dataset: 
-    transforms:
-      policy:
-        epoch: 33
-  collate_fn:
-    scales: ~
+#train_dataloader: 
+#  dataset: 
+#    transforms:
+#      policy:
+#        epoch: 33
+#  collate_fn:
+#    scales: ~
