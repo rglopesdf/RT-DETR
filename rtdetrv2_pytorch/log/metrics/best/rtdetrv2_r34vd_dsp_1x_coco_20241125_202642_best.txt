@@ -1,0 +1,12 @@
+best_stat: {'epoch': 0, 'coco_eval_bbox': 0.00018536791188760568}
+best_stat: {'epoch': 1, 'coco_eval_bbox': 0.00020853275853567382}
+best_stat: {'epoch': 2, 'coco_eval_bbox': 0.00027521787886343647}
+best_stat: {'epoch': 3, 'coco_eval_bbox': 0.0002894645859780008}
+best_stat: {'epoch': 3, 'coco_eval_bbox': 0.0002894645859780008}
+best_stat: {'epoch': 3, 'coco_eval_bbox': 0.0002894645859780008}
+best_stat: {'epoch': 6, 'coco_eval_bbox': 0.00032453766720056803}
+best_stat: {'epoch': 6, 'coco_eval_bbox': 0.00032453766720056803}
+best_stat: {'epoch': 6, 'coco_eval_bbox': 0.00032453766720056803}
+best_stat: {'epoch': 9, 'coco_eval_bbox': 0.0003658343273460011}
+best_stat: {'epoch': 10, 'coco_eval_bbox': 0.0004572927391794079}
+best_stat: {'epoch': 11, 'coco_eval_bbox': 0.0006111364903016663}
