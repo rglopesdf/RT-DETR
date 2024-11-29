@@ -26,24 +26,24 @@ train_dataloader:
     type: BatchImageCollateFuncion
 
 
+#val_dataloader:
+#  type: DataLoader
+#  dataset: 
+#    type: CocoDetection
+#    img_folder: ../dataset/images/val/
+#    ann_file: ../dataset/annotations/instances_val.json
+#    return_masks: False
+#    transforms:
+#      type: Compose
+#      ops: ~ 
+#  shuffle: False
+#  num_workers: 4
+#  drop_last: False
+#  collate_fn:
+#    type: BatchImageCollateFuncion
+
+
 val_dataloader:
-  type: DataLoader
-  dataset: 
-    type: CocoDetection
-    img_folder: ../dataset/images/val/
-    ann_file: ../dataset/annotations/instances_val.json
-    return_masks: False
-    transforms:
-      type: Compose
-      ops: ~ 
-  shuffle: False
-  num_workers: 4
-  drop_last: False
-  collate_fn:
-    type: BatchImageCollateFuncion
-
-
-test_dataloader:
   type: DataLoader
   dataset: 
     type: CocoDetection
