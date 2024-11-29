@@ -48,7 +48,7 @@ val_dataloader:
   dataset: 
     type: CocoDetection
     img_folder: ../dataset/images/test/
-    ann_file: ../dataset/annotations/instances_test.json
+    ann_file: ../dataset/annotations/instances_test_1.json
     return_masks: False
     transforms:
       type: Compose

@@ -1,0 +1,9 @@
+Modelo,AP50_val,Época,AP50_test
+r50vd_6x_coco,0.553,-1,0.494
+r34vd_dsp_1x_coco,0.595,-1,0.573
+r18vd_dsp_3x_coco,0.537,-1,0.516
+hgnetv2_l_6x_coco,0.586,-1,0.534
+hgnetv2_x_6x_coco,0.57,-1,0.55
+hgnetv2_h_6x_coco,0.59,-1,0.58
+r50vd_dsp_1x_coco,0.709,-1,0.644
+r50vd_m_dsp_3x_coco,0.638,-1,0.585
