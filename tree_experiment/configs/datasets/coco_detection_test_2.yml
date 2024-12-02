@@ -13,8 +13,8 @@ train_dataloader:
   type: DataLoader
   dataset: 
     type: CocoDetection
-    img_folder: ../dataset/images/train/
-    ann_file: ../dataset/annotations/instances_train.json
+    img_folder: ../tree_experiment/dataset/images/2/train/
+    ann_file: ../tree_experiment/dataset/annotations/2/instances_train.json
     return_masks: False
     transforms:
       type: Compose
@@ -26,29 +26,12 @@ train_dataloader:
     type: BatchImageCollateFuncion
 
 
-#val_dataloader:
-#  type: DataLoader
-#  dataset: 
-#    type: CocoDetection
-#    img_folder: ../dataset/images/val/
-#    ann_file: ../dataset/annotations/instances_val.json
-#    return_masks: False
-#    transforms:
-#      type: Compose
-#      ops: ~ 
-#  shuffle: False
-#  num_workers: 4
-#  drop_last: False
-#  collate_fn:
-#    type: BatchImageCollateFuncion
-
-
 val_dataloader:
   type: DataLoader
   dataset: 
     type: CocoDetection
-    img_folder: ../dataset/images/test/
-    ann_file: ../dataset/annotations/instances_test_2.json
+    img_folder: ../tree_experiment/dataset/images/2/test/
+    ann_file: ../tree_experiment/dataset/annotations/2/instances_test.json
     return_masks: False
     transforms:
       type: Compose
