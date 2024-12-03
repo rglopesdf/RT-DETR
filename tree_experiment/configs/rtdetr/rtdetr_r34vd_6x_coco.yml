@@ -8,8 +8,8 @@ __include__: [
 ]
 
 
-output_dir: ./output/rtdetr_r34vd_6x_coco
-
+#output_dir: ./output/rtdetr_r34vd_6x_coco
+output_dir: /content/drive/MyDrive/Phd/Deeplearning/trab1/rt-detr/checkpoints/rtdetr_r34vd_6x_coco
 
 PResNet:
   depth: 34
