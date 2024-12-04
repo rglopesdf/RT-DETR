@@ -1,0 +1,373 @@
+Not init distributed mode.
+Start training
+Load PResNet34 state_dict
+Initial lr:  [1e-05, 1e-05, 0.0001, 0.0001]
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+number of params: 31319929
+Epoch: [0]  [ 0/33]  eta: 0:01:16  lr: 0.000010  loss: 22.5283 (22.5283)  loss_vfl: 0.4560 (0.4560)  loss_bbox: 0.3740 (0.3740)  loss_giou: 1.7804 (1.7804)  loss_vfl_aux_0: 0.4226 (0.4226)  loss_bbox_aux_0: 0.3601 (0.3601)  loss_giou_aux_0: 1.7716 (1.7716)  loss_vfl_aux_1: 0.5013 (0.5013)  loss_bbox_aux_1: 0.3823 (0.3823)  loss_giou_aux_1: 1.7133 (1.7133)  loss_vfl_aux_2: 0.4193 (0.4193)  loss_bbox_aux_2: 0.3650 (0.3650)  loss_giou_aux_2: 1.7410 (1.7410)  loss_vfl_aux_3: 0.3459 (0.3459)  loss_bbox_aux_3: 0.3610 (0.3610)  loss_giou_aux_3: 1.7215 (1.7215)  loss_vfl_dn_0: 0.7825 (0.7825)  loss_bbox_dn_0: 0.2985 (0.2985)  loss_giou_dn_0: 1.4047 (1.4047)  loss_vfl_dn_1: 0.8074 (0.8074)  loss_bbox_dn_1: 0.2985 (0.2985)  loss_giou_dn_1: 1.4047 (1.4047)  loss_vfl_dn_2: 0.6976 (0.6976)  loss_bbox_dn_2: 0.2985 (0.2985)  loss_giou_dn_2: 1.4047 (1.4047)  loss_vfl_dn_3: 0.7128 (0.7128)  loss_bbox_dn_3: 0.2985 (0.2985)  loss_giou_dn_3: 1.4047 (1.4047)  time: 2.3079  data: 0.5442  max mem: 2543
+Epoch: [0]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 19.8637 (20.9863)  loss_vfl: 0.4747 (0.4279)  loss_bbox: 0.5090 (0.6040)  loss_giou: 1.3169 (1.4557)  loss_vfl_aux_0: 0.3828 (0.4080)  loss_bbox_aux_0: 0.5183 (0.6214)  loss_giou_aux_0: 1.3501 (1.4753)  loss_vfl_aux_1: 0.4143 (0.4098)  loss_bbox_aux_1: 0.5095 (0.6096)  loss_giou_aux_1: 1.3266 (1.4602)  loss_vfl_aux_2: 0.4316 (0.4095)  loss_bbox_aux_2: 0.5116 (0.6048)  loss_giou_aux_2: 1.3269 (1.4587)  loss_vfl_aux_3: 0.3886 (0.3568)  loss_bbox_aux_3: 0.5153 (0.6173)  loss_giou_aux_3: 1.3631 (1.4750)  loss_vfl_dn_0: 0.3360 (0.4200)  loss_bbox_dn_0: 0.3440 (0.4008)  loss_giou_dn_0: 1.3569 (1.3657)  loss_vfl_dn_1: 0.3250 (0.3754)  loss_bbox_dn_1: 0.3467 (0.4028)  loss_giou_dn_1: 1.3588 (1.3655)  loss_vfl_dn_2: 0.3239 (0.3553)  loss_bbox_dn_2: 0.3498 (0.4051)  loss_giou_dn_2: 1.3624 (1.3664)  loss_vfl_dn_3: 0.3221 (0.3592)  loss_bbox_dn_3: 0.3531 (0.4076)  loss_giou_dn_3: 1.3648 (1.3685)  time: 0.2292  data: 0.0145  max mem: 4701
+Epoch: [0] Total time: 0:00:10 (0.3207 s / it)
+Averaged stats: lr: 0.000010  loss: 19.8637 (20.9863)  loss_vfl: 0.4747 (0.4279)  loss_bbox: 0.5090 (0.6040)  loss_giou: 1.3169 (1.4557)  loss_vfl_aux_0: 0.3828 (0.4080)  loss_bbox_aux_0: 0.5183 (0.6214)  loss_giou_aux_0: 1.3501 (1.4753)  loss_vfl_aux_1: 0.4143 (0.4098)  loss_bbox_aux_1: 0.5095 (0.6096)  loss_giou_aux_1: 1.3266 (1.4602)  loss_vfl_aux_2: 0.4316 (0.4095)  loss_bbox_aux_2: 0.5116 (0.6048)  loss_giou_aux_2: 1.3269 (1.4587)  loss_vfl_aux_3: 0.3886 (0.3568)  loss_bbox_aux_3: 0.5153 (0.6173)  loss_giou_aux_3: 1.3631 (1.4750)  loss_vfl_dn_0: 0.3360 (0.4200)  loss_bbox_dn_0: 0.3440 (0.4008)  loss_giou_dn_0: 1.3569 (1.3657)  loss_vfl_dn_1: 0.3250 (0.3754)  loss_bbox_dn_1: 0.3467 (0.4028)  loss_giou_dn_1: 1.3588 (1.3655)  loss_vfl_dn_2: 0.3239 (0.3553)  loss_bbox_dn_2: 0.3498 (0.4051)  loss_giou_dn_2: 1.3624 (1.3664)  loss_vfl_dn_3: 0.3221 (0.3592)  loss_bbox_dn_3: 0.3531 (0.4076)  loss_giou_dn_3: 1.3648 (1.3685)
+Test:  [0/6]  eta: 0:00:06    time: 1.0427  data: 0.6567  max mem: 4701
+Test:  [5/6]  eta: 0:00:00    time: 0.4659  data: 0.1267  max mem: 4701
+Test: Total time: 0:00:02 (0.4821 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.004
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.013
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.003
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.013
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.002
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.013
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.065
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.084
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.065
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.002
+best_stat:  {'epoch': 0, 'coco_eval_bbox': 0.0037311184025070184}
+Epoch: [1]  [ 0/33]  eta: 0:00:32  lr: 0.000010  loss: 20.9480 (20.9480)  loss_vfl: 0.6383 (0.6383)  loss_bbox: 0.5798 (0.5798)  loss_giou: 1.3369 (1.3369)  loss_vfl_aux_0: 0.5556 (0.5556)  loss_bbox_aux_0: 0.5829 (0.5829)  loss_giou_aux_0: 1.3282 (1.3282)  loss_vfl_aux_1: 0.5950 (0.5950)  loss_bbox_aux_1: 0.5820 (0.5820)  loss_giou_aux_1: 1.3265 (1.3265)  loss_vfl_aux_2: 0.5723 (0.5723)  loss_bbox_aux_2: 0.5971 (0.5971)  loss_giou_aux_2: 1.3271 (1.3271)  loss_vfl_aux_3: 0.4254 (0.4254)  loss_bbox_aux_3: 0.6169 (0.6169)  loss_giou_aux_3: 1.3355 (1.3355)  loss_vfl_dn_0: 0.3374 (0.3374)  loss_bbox_dn_0: 0.4153 (0.4153)  loss_giou_dn_0: 1.4012 (1.4012)  loss_vfl_dn_1: 0.3256 (0.3256)  loss_bbox_dn_1: 0.4187 (0.4187)  loss_giou_dn_1: 1.3992 (1.3992)  loss_vfl_dn_2: 0.3064 (0.3064)  loss_bbox_dn_2: 0.4229 (0.4229)  loss_giou_dn_2: 1.3979 (1.3979)  loss_vfl_dn_3: 0.3040 (0.3040)  loss_bbox_dn_3: 0.4261 (0.4261)  loss_giou_dn_3: 1.3940 (1.3940)  time: 0.9808  data: 0.7270  max mem: 4701
+Epoch: [1]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 20.0013 (20.5584)  loss_vfl: 0.4944 (0.4863)  loss_bbox: 0.5403 (0.6241)  loss_giou: 1.2990 (1.3222)  loss_vfl_aux_0: 0.4460 (0.4338)  loss_bbox_aux_0: 0.5655 (0.6367)  loss_giou_aux_0: 1.3148 (1.3455)  loss_vfl_aux_1: 0.4442 (0.4460)  loss_bbox_aux_1: 0.5539 (0.6302)  loss_giou_aux_1: 1.3088 (1.3341)  loss_vfl_aux_2: 0.4703 (0.4665)  loss_bbox_aux_2: 0.5529 (0.6264)  loss_giou_aux_2: 1.3066 (1.3267)  loss_vfl_aux_3: 0.4293 (0.4039)  loss_bbox_aux_3: 0.5622 (0.6514)  loss_giou_aux_3: 1.3390 (1.3684)  loss_vfl_dn_0: 0.3217 (0.3205)  loss_bbox_dn_0: 0.3745 (0.4430)  loss_giou_dn_0: 1.3527 (1.3506)  loss_vfl_dn_1: 0.3252 (0.3232)  loss_bbox_dn_1: 0.3772 (0.4451)  loss_giou_dn_1: 1.3494 (1.3438)  loss_vfl_dn_2: 0.3273 (0.3246)  loss_bbox_dn_2: 0.3805 (0.4480)  loss_giou_dn_2: 1.3461 (1.3403)  loss_vfl_dn_3: 0.3273 (0.3276)  loss_bbox_dn_3: 0.3842 (0.4515)  loss_giou_dn_3: 1.3376 (1.3379)  time: 0.2206  data: 0.0151  max mem: 4706
+Epoch: [1] Total time: 0:00:08 (0.2502 s / it)
+Averaged stats: lr: 0.000010  loss: 20.0013 (20.5584)  loss_vfl: 0.4944 (0.4863)  loss_bbox: 0.5403 (0.6241)  loss_giou: 1.2990 (1.3222)  loss_vfl_aux_0: 0.4460 (0.4338)  loss_bbox_aux_0: 0.5655 (0.6367)  loss_giou_aux_0: 1.3148 (1.3455)  loss_vfl_aux_1: 0.4442 (0.4460)  loss_bbox_aux_1: 0.5539 (0.6302)  loss_giou_aux_1: 1.3088 (1.3341)  loss_vfl_aux_2: 0.4703 (0.4665)  loss_bbox_aux_2: 0.5529 (0.6264)  loss_giou_aux_2: 1.3066 (1.3267)  loss_vfl_aux_3: 0.4293 (0.4039)  loss_bbox_aux_3: 0.5622 (0.6514)  loss_giou_aux_3: 1.3390 (1.3684)  loss_vfl_dn_0: 0.3217 (0.3205)  loss_bbox_dn_0: 0.3745 (0.4430)  loss_giou_dn_0: 1.3527 (1.3506)  loss_vfl_dn_1: 0.3252 (0.3232)  loss_bbox_dn_1: 0.3772 (0.4451)  loss_giou_dn_1: 1.3494 (1.3438)  loss_vfl_dn_2: 0.3273 (0.3246)  loss_bbox_dn_2: 0.3805 (0.4480)  loss_giou_dn_2: 1.3461 (1.3403)  loss_vfl_dn_3: 0.3273 (0.3276)  loss_bbox_dn_3: 0.3842 (0.4515)  loss_giou_dn_3: 1.3376 (1.3379)
+Test:  [0/6]  eta: 0:00:06    time: 1.1366  data: 0.6443  max mem: 4706
+Test:  [5/6]  eta: 0:00:00    time: 0.4237  data: 0.1210  max mem: 4706
+Test: Total time: 0:00:02 (0.4418 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.015
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.045
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.008
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.057
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.015
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.011
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.038
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.122
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.095
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.148
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.000
+best_stat:  {'epoch': 1, 'coco_eval_bbox': 0.014583841405718643}
+Epoch: [2]  [ 0/33]  eta: 0:00:33  lr: 0.000010  loss: 18.9627 (18.9627)  loss_vfl: 0.6001 (0.6001)  loss_bbox: 0.4242 (0.4242)  loss_giou: 1.3552 (1.3552)  loss_vfl_aux_0: 0.3610 (0.3610)  loss_bbox_aux_0: 0.4424 (0.4424)  loss_giou_aux_0: 1.4263 (1.4263)  loss_vfl_aux_1: 0.4964 (0.4964)  loss_bbox_aux_1: 0.4406 (0.4406)  loss_giou_aux_1: 1.3940 (1.3940)  loss_vfl_aux_2: 0.5484 (0.5484)  loss_bbox_aux_2: 0.4290 (0.4290)  loss_giou_aux_2: 1.3612 (1.3612)  loss_vfl_aux_3: 0.3333 (0.3333)  loss_bbox_aux_3: 0.4536 (0.4536)  loss_giou_aux_3: 1.4445 (1.4445)  loss_vfl_dn_0: 0.3413 (0.3413)  loss_bbox_dn_0: 0.2337 (0.2337)  loss_giou_dn_0: 1.2943 (1.2943)  loss_vfl_dn_1: 0.3477 (0.3477)  loss_bbox_dn_1: 0.2312 (0.2312)  loss_giou_dn_1: 1.2799 (1.2799)  loss_vfl_dn_2: 0.3503 (0.3503)  loss_bbox_dn_2: 0.2300 (0.2300)  loss_giou_dn_2: 1.2805 (1.2805)  loss_vfl_dn_3: 0.3434 (0.3434)  loss_bbox_dn_3: 0.2302 (0.2302)  loss_giou_dn_3: 1.2898 (1.2898)  time: 1.0038  data: 0.7468  max mem: 4706
+Epoch: [2]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 19.0826 (19.6828)  loss_vfl: 0.7003 (0.6866)  loss_bbox: 0.3773 (0.4500)  loss_giou: 1.1385 (1.1490)  loss_vfl_aux_0: 0.6030 (0.5615)  loss_bbox_aux_0: 0.3843 (0.5105)  loss_giou_aux_0: 1.1790 (1.2135)  loss_vfl_aux_1: 0.6546 (0.6170)  loss_bbox_aux_1: 0.3832 (0.4769)  loss_giou_aux_1: 1.1648 (1.1810)  loss_vfl_aux_2: 0.6787 (0.6575)  loss_bbox_aux_2: 0.3879 (0.4596)  loss_giou_aux_2: 1.1502 (1.1617)  loss_vfl_aux_3: 0.5316 (0.4922)  loss_bbox_aux_3: 0.4631 (0.5712)  loss_giou_aux_3: 1.2314 (1.2807)  loss_vfl_dn_0: 0.3346 (0.3365)  loss_bbox_dn_0: 0.3881 (0.4262)  loss_giou_dn_0: 1.3020 (1.3071)  loss_vfl_dn_1: 0.3435 (0.3434)  loss_bbox_dn_1: 0.3850 (0.4187)  loss_giou_dn_1: 1.2866 (1.2900)  loss_vfl_dn_2: 0.3404 (0.3411)  loss_bbox_dn_2: 0.3864 (0.4158)  loss_giou_dn_2: 1.2760 (1.2882)  loss_vfl_dn_3: 0.3432 (0.3451)  loss_bbox_dn_3: 0.3875 (0.4152)  loss_giou_dn_3: 1.2732 (1.2868)  time: 0.2128  data: 0.0146  max mem: 4708
+Epoch: [2] Total time: 0:00:08 (0.2440 s / it)
+Averaged stats: lr: 0.000010  loss: 19.0826 (19.6828)  loss_vfl: 0.7003 (0.6866)  loss_bbox: 0.3773 (0.4500)  loss_giou: 1.1385 (1.1490)  loss_vfl_aux_0: 0.6030 (0.5615)  loss_bbox_aux_0: 0.3843 (0.5105)  loss_giou_aux_0: 1.1790 (1.2135)  loss_vfl_aux_1: 0.6546 (0.6170)  loss_bbox_aux_1: 0.3832 (0.4769)  loss_giou_aux_1: 1.1648 (1.1810)  loss_vfl_aux_2: 0.6787 (0.6575)  loss_bbox_aux_2: 0.3879 (0.4596)  loss_giou_aux_2: 1.1502 (1.1617)  loss_vfl_aux_3: 0.5316 (0.4922)  loss_bbox_aux_3: 0.4631 (0.5712)  loss_giou_aux_3: 1.2314 (1.2807)  loss_vfl_dn_0: 0.3346 (0.3365)  loss_bbox_dn_0: 0.3881 (0.4262)  loss_giou_dn_0: 1.3020 (1.3071)  loss_vfl_dn_1: 0.3435 (0.3434)  loss_bbox_dn_1: 0.3850 (0.4187)  loss_giou_dn_1: 1.2866 (1.2900)  loss_vfl_dn_2: 0.3404 (0.3411)  loss_bbox_dn_2: 0.3864 (0.4158)  loss_giou_dn_2: 1.2760 (1.2882)  loss_vfl_dn_3: 0.3432 (0.3451)  loss_bbox_dn_3: 0.3875 (0.4152)  loss_giou_dn_3: 1.2732 (1.2868)
+Test:  [0/6]  eta: 0:00:05    time: 0.9295  data: 0.6270  max mem: 4708
+Test:  [5/6]  eta: 0:00:00    time: 0.3867  data: 0.1234  max mem: 4708
+Test: Total time: 0:00:02 (0.4025 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.040
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.106
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.022
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.028
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.055
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.019
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.019
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.066
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.254
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.166
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.289
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.256
+best_stat:  {'epoch': 2, 'coco_eval_bbox': 0.03955823788850277}
+Epoch: [3]  [ 0/33]  eta: 0:00:30  lr: 0.000010  loss: 20.6165 (20.6165)  loss_vfl: 0.9921 (0.9921)  loss_bbox: 0.3915 (0.3915)  loss_giou: 1.1446 (1.1446)  loss_vfl_aux_0: 0.7519 (0.7519)  loss_bbox_aux_0: 0.4122 (0.4122)  loss_giou_aux_0: 1.1718 (1.1718)  loss_vfl_aux_1: 0.8413 (0.8413)  loss_bbox_aux_1: 0.4222 (0.4222)  loss_giou_aux_1: 1.1565 (1.1565)  loss_vfl_aux_2: 0.9504 (0.9504)  loss_bbox_aux_2: 0.4054 (0.4054)  loss_giou_aux_2: 1.1109 (1.1109)  loss_vfl_aux_3: 0.6688 (0.6688)  loss_bbox_aux_3: 0.4943 (0.4943)  loss_giou_aux_3: 1.2648 (1.2648)  loss_vfl_dn_0: 0.3399 (0.3399)  loss_bbox_dn_0: 0.4569 (0.4569)  loss_giou_dn_0: 1.3220 (1.3220)  loss_vfl_dn_1: 0.3367 (0.3367)  loss_bbox_dn_1: 0.4486 (0.4486)  loss_giou_dn_1: 1.3204 (1.3204)  loss_vfl_dn_2: 0.3407 (0.3407)  loss_bbox_dn_2: 0.4474 (0.4474)  loss_giou_dn_2: 1.3196 (1.3196)  loss_vfl_dn_3: 0.3411 (0.3411)  loss_bbox_dn_3: 0.4458 (0.4458)  loss_giou_dn_3: 1.3188 (1.3188)  time: 0.9110  data: 0.6133  max mem: 4708
+Epoch: [3]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 18.8759 (19.1128)  loss_vfl: 0.8115 (0.8162)  loss_bbox: 0.3388 (0.3659)  loss_giou: 0.9918 (1.0372)  loss_vfl_aux_0: 0.6606 (0.6960)  loss_bbox_aux_0: 0.3561 (0.3921)  loss_giou_aux_0: 1.0300 (1.0796)  loss_vfl_aux_1: 0.7423 (0.7472)  loss_bbox_aux_1: 0.3447 (0.3825)  loss_giou_aux_1: 1.0018 (1.0579)  loss_vfl_aux_2: 0.7987 (0.7793)  loss_bbox_aux_2: 0.3397 (0.3714)  loss_giou_aux_2: 0.9823 (1.0468)  loss_vfl_aux_3: 0.6195 (0.6372)  loss_bbox_aux_3: 0.3912 (0.4305)  loss_giou_aux_3: 1.0792 (1.1370)  loss_vfl_dn_0: 0.3564 (0.3529)  loss_bbox_dn_0: 0.4205 (0.4337)  loss_giou_dn_0: 1.2601 (1.2707)  loss_vfl_dn_1: 0.3568 (0.3568)  loss_bbox_dn_1: 0.4120 (0.4227)  loss_giou_dn_1: 1.2553 (1.2555)  loss_vfl_dn_2: 0.3566 (0.3580)  loss_bbox_dn_2: 0.4120 (0.4180)  loss_giou_dn_2: 1.2348 (1.2471)  loss_vfl_dn_3: 0.3622 (0.3641)  loss_bbox_dn_3: 0.4183 (0.4172)  loss_giou_dn_3: 1.2167 (1.2396)  time: 0.2145  data: 0.0158  max mem: 4708
+Epoch: [3] Total time: 0:00:07 (0.2402 s / it)
+Averaged stats: lr: 0.000010  loss: 18.8759 (19.1128)  loss_vfl: 0.8115 (0.8162)  loss_bbox: 0.3388 (0.3659)  loss_giou: 0.9918 (1.0372)  loss_vfl_aux_0: 0.6606 (0.6960)  loss_bbox_aux_0: 0.3561 (0.3921)  loss_giou_aux_0: 1.0300 (1.0796)  loss_vfl_aux_1: 0.7423 (0.7472)  loss_bbox_aux_1: 0.3447 (0.3825)  loss_giou_aux_1: 1.0018 (1.0579)  loss_vfl_aux_2: 0.7987 (0.7793)  loss_bbox_aux_2: 0.3397 (0.3714)  loss_giou_aux_2: 0.9823 (1.0468)  loss_vfl_aux_3: 0.6195 (0.6372)  loss_bbox_aux_3: 0.3912 (0.4305)  loss_giou_aux_3: 1.0792 (1.1370)  loss_vfl_dn_0: 0.3564 (0.3529)  loss_bbox_dn_0: 0.4205 (0.4337)  loss_giou_dn_0: 1.2601 (1.2707)  loss_vfl_dn_1: 0.3568 (0.3568)  loss_bbox_dn_1: 0.4120 (0.4227)  loss_giou_dn_1: 1.2553 (1.2555)  loss_vfl_dn_2: 0.3566 (0.3580)  loss_bbox_dn_2: 0.4120 (0.4180)  loss_giou_dn_2: 1.2348 (1.2471)  loss_vfl_dn_3: 0.3622 (0.3641)  loss_bbox_dn_3: 0.4183 (0.4172)  loss_giou_dn_3: 1.2167 (1.2396)
+Test:  [0/6]  eta: 0:00:05    time: 0.9881  data: 0.6723  max mem: 4708
+Test:  [5/6]  eta: 0:00:00    time: 0.4438  data: 0.1249  max mem: 4708
+Test: Total time: 0:00:02 (0.4593 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.050
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.120
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.030
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.026
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.068
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.062
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.022
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.075
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.276
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.175
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.318
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.265
+best_stat:  {'epoch': 3, 'coco_eval_bbox': 0.050047941899198145}
+Epoch: [4]  [ 0/33]  eta: 0:00:33  lr: 0.000010  loss: 17.9921 (17.9921)  loss_vfl: 0.6066 (0.6066)  loss_bbox: 0.2987 (0.2987)  loss_giou: 1.1206 (1.1206)  loss_vfl_aux_0: 0.5758 (0.5758)  loss_bbox_aux_0: 0.3345 (0.3345)  loss_giou_aux_0: 1.1574 (1.1574)  loss_vfl_aux_1: 0.5861 (0.5861)  loss_bbox_aux_1: 0.3215 (0.3215)  loss_giou_aux_1: 1.1414 (1.1414)  loss_vfl_aux_2: 0.5841 (0.5841)  loss_bbox_aux_2: 0.3126 (0.3126)  loss_giou_aux_2: 1.1285 (1.1285)  loss_vfl_aux_3: 0.5408 (0.5408)  loss_bbox_aux_3: 0.3637 (0.3637)  loss_giou_aux_3: 1.2103 (1.2103)  loss_vfl_dn_0: 0.3569 (0.3569)  loss_bbox_dn_0: 0.3297 (0.3297)  loss_giou_dn_0: 1.2693 (1.2693)  loss_vfl_dn_1: 0.3460 (0.3460)  loss_bbox_dn_1: 0.3212 (0.3212)  loss_giou_dn_1: 1.2654 (1.2654)  loss_vfl_dn_2: 0.3350 (0.3350)  loss_bbox_dn_2: 0.3149 (0.3149)  loss_giou_dn_2: 1.2627 (1.2627)  loss_vfl_dn_3: 0.3440 (0.3440)  loss_bbox_dn_3: 0.3108 (0.3108)  loss_giou_dn_3: 1.2536 (1.2536)  time: 1.0127  data: 0.7555  max mem: 4708
+Epoch: [4]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 17.9883 (18.2827)  loss_vfl: 0.7213 (0.7886)  loss_bbox: 0.2614 (0.3036)  loss_giou: 1.0111 (0.9912)  loss_vfl_aux_0: 0.6121 (0.6747)  loss_bbox_aux_0: 0.3027 (0.3344)  loss_giou_aux_0: 1.0645 (1.0514)  loss_vfl_aux_1: 0.6637 (0.7057)  loss_bbox_aux_1: 0.2933 (0.3212)  loss_giou_aux_1: 1.0385 (1.0239)  loss_vfl_aux_2: 0.6848 (0.7528)  loss_bbox_aux_2: 0.2658 (0.3095)  loss_giou_aux_2: 1.0252 (1.0049)  loss_vfl_aux_3: 0.5567 (0.6300)  loss_bbox_aux_3: 0.3579 (0.3699)  loss_giou_aux_3: 1.1150 (1.1286)  loss_vfl_dn_0: 0.3507 (0.3510)  loss_bbox_dn_0: 0.3394 (0.3923)  loss_giou_dn_0: 1.2723 (1.2699)  loss_vfl_dn_1: 0.3556 (0.3532)  loss_bbox_dn_1: 0.3440 (0.3815)  loss_giou_dn_1: 1.2335 (1.2447)  loss_vfl_dn_2: 0.3568 (0.3560)  loss_bbox_dn_2: 0.3347 (0.3728)  loss_giou_dn_2: 1.2024 (1.2258)  loss_vfl_dn_3: 0.3575 (0.3617)  loss_bbox_dn_3: 0.3273 (0.3696)  loss_giou_dn_3: 1.1900 (1.2138)  time: 0.2175  data: 0.0151  max mem: 4708
+Epoch: [4] Total time: 0:00:08 (0.2431 s / it)
+Averaged stats: lr: 0.000010  loss: 17.9883 (18.2827)  loss_vfl: 0.7213 (0.7886)  loss_bbox: 0.2614 (0.3036)  loss_giou: 1.0111 (0.9912)  loss_vfl_aux_0: 0.6121 (0.6747)  loss_bbox_aux_0: 0.3027 (0.3344)  loss_giou_aux_0: 1.0645 (1.0514)  loss_vfl_aux_1: 0.6637 (0.7057)  loss_bbox_aux_1: 0.2933 (0.3212)  loss_giou_aux_1: 1.0385 (1.0239)  loss_vfl_aux_2: 0.6848 (0.7528)  loss_bbox_aux_2: 0.2658 (0.3095)  loss_giou_aux_2: 1.0252 (1.0049)  loss_vfl_aux_3: 0.5567 (0.6300)  loss_bbox_aux_3: 0.3579 (0.3699)  loss_giou_aux_3: 1.1150 (1.1286)  loss_vfl_dn_0: 0.3507 (0.3510)  loss_bbox_dn_0: 0.3394 (0.3923)  loss_giou_dn_0: 1.2723 (1.2699)  loss_vfl_dn_1: 0.3556 (0.3532)  loss_bbox_dn_1: 0.3440 (0.3815)  loss_giou_dn_1: 1.2335 (1.2447)  loss_vfl_dn_2: 0.3568 (0.3560)  loss_bbox_dn_2: 0.3347 (0.3728)  loss_giou_dn_2: 1.2024 (1.2258)  loss_vfl_dn_3: 0.3575 (0.3617)  loss_bbox_dn_3: 0.3273 (0.3696)  loss_giou_dn_3: 1.1900 (1.2138)
+Test:  [0/6]  eta: 0:00:05    time: 0.9658  data: 0.6632  max mem: 4708
+Test:  [5/6]  eta: 0:00:00    time: 0.3855  data: 0.1235  max mem: 4708
+Test: Total time: 0:00:02 (0.4012 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.055
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.137
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.029
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.040
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.065
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.099
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.025
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.082
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.298
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.208
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.339
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.249
+best_stat:  {'epoch': 4, 'coco_eval_bbox': 0.05492795427784892}
+Epoch: [5]  [ 0/33]  eta: 0:00:27  lr: 0.000010  loss: 18.2520 (18.2520)  loss_vfl: 0.7422 (0.7422)  loss_bbox: 0.3445 (0.3445)  loss_giou: 0.8876 (0.8876)  loss_vfl_aux_0: 0.6980 (0.6980)  loss_bbox_aux_0: 0.3750 (0.3750)  loss_giou_aux_0: 0.9020 (0.9020)  loss_vfl_aux_1: 0.7128 (0.7128)  loss_bbox_aux_1: 0.3789 (0.3789)  loss_giou_aux_1: 0.8970 (0.8970)  loss_vfl_aux_2: 0.7125 (0.7125)  loss_bbox_aux_2: 0.3635 (0.3635)  loss_giou_aux_2: 0.8922 (0.8922)  loss_vfl_aux_3: 0.6879 (0.6879)  loss_bbox_aux_3: 0.3789 (0.3789)  loss_giou_aux_3: 0.9595 (0.9595)  loss_vfl_dn_0: 0.3487 (0.3487)  loss_bbox_dn_0: 0.5310 (0.5310)  loss_giou_dn_0: 1.2613 (1.2613)  loss_vfl_dn_1: 0.3562 (0.3562)  loss_bbox_dn_1: 0.5147 (0.5147)  loss_giou_dn_1: 1.2168 (1.2168)  loss_vfl_dn_2: 0.3650 (0.3650)  loss_bbox_dn_2: 0.5020 (0.5020)  loss_giou_dn_2: 1.1825 (1.1825)  loss_vfl_dn_3: 0.3772 (0.3772)  loss_bbox_dn_3: 0.4976 (0.4976)  loss_giou_dn_3: 1.1665 (1.1665)  time: 0.8271  data: 0.5715  max mem: 4708
+Epoch: [5]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 17.6479 (17.9580)  loss_vfl: 0.8689 (0.8645)  loss_bbox: 0.2573 (0.2862)  loss_giou: 0.8933 (0.9308)  loss_vfl_aux_0: 0.6913 (0.7265)  loss_bbox_aux_0: 0.3157 (0.3280)  loss_giou_aux_0: 0.9801 (1.0087)  loss_vfl_aux_1: 0.7597 (0.7865)  loss_bbox_aux_1: 0.2823 (0.3094)  loss_giou_aux_1: 0.9339 (0.9648)  loss_vfl_aux_2: 0.8297 (0.8371)  loss_bbox_aux_2: 0.2682 (0.2933)  loss_giou_aux_2: 0.8959 (0.9374)  loss_vfl_aux_3: 0.6377 (0.6670)  loss_bbox_aux_3: 0.3273 (0.3633)  loss_giou_aux_3: 1.0544 (1.0900)  loss_vfl_dn_0: 0.3667 (0.3639)  loss_bbox_dn_0: 0.4075 (0.3837)  loss_giou_dn_0: 1.2093 (1.2210)  loss_vfl_dn_1: 0.3747 (0.3750)  loss_bbox_dn_1: 0.3935 (0.3651)  loss_giou_dn_1: 1.1242 (1.1613)  loss_vfl_dn_2: 0.3862 (0.3882)  loss_bbox_dn_2: 0.3823 (0.3521)  loss_giou_dn_2: 1.0773 (1.1121)  loss_vfl_dn_3: 0.3939 (0.3968)  loss_bbox_dn_3: 0.3823 (0.3503)  loss_giou_dn_3: 1.0526 (1.0948)  time: 0.2121  data: 0.0144  max mem: 4708
+Epoch: [5] Total time: 0:00:07 (0.2368 s / it)
+Averaged stats: lr: 0.000010  loss: 17.6479 (17.9580)  loss_vfl: 0.8689 (0.8645)  loss_bbox: 0.2573 (0.2862)  loss_giou: 0.8933 (0.9308)  loss_vfl_aux_0: 0.6913 (0.7265)  loss_bbox_aux_0: 0.3157 (0.3280)  loss_giou_aux_0: 0.9801 (1.0087)  loss_vfl_aux_1: 0.7597 (0.7865)  loss_bbox_aux_1: 0.2823 (0.3094)  loss_giou_aux_1: 0.9339 (0.9648)  loss_vfl_aux_2: 0.8297 (0.8371)  loss_bbox_aux_2: 0.2682 (0.2933)  loss_giou_aux_2: 0.8959 (0.9374)  loss_vfl_aux_3: 0.6377 (0.6670)  loss_bbox_aux_3: 0.3273 (0.3633)  loss_giou_aux_3: 1.0544 (1.0900)  loss_vfl_dn_0: 0.3667 (0.3639)  loss_bbox_dn_0: 0.4075 (0.3837)  loss_giou_dn_0: 1.2093 (1.2210)  loss_vfl_dn_1: 0.3747 (0.3750)  loss_bbox_dn_1: 0.3935 (0.3651)  loss_giou_dn_1: 1.1242 (1.1613)  loss_vfl_dn_2: 0.3862 (0.3882)  loss_bbox_dn_2: 0.3823 (0.3521)  loss_giou_dn_2: 1.0773 (1.1121)  loss_vfl_dn_3: 0.3939 (0.3968)  loss_bbox_dn_3: 0.3823 (0.3503)  loss_giou_dn_3: 1.0526 (1.0948)
+Test:  [0/6]  eta: 0:00:05    time: 0.9236  data: 0.6116  max mem: 4708
+Test:  [5/6]  eta: 0:00:00    time: 0.3895  data: 0.1220  max mem: 4708
+Test: Total time: 0:00:02 (0.4060 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.06s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.049
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.111
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.039
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.035
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.055
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.052
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.026
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.086
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.315
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.163
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.359
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.447
+best_stat:  {'epoch': 4, 'coco_eval_bbox': 0.05492795427784892}
+Epoch: [6]  [ 0/33]  eta: 0:00:30  lr: 0.000010  loss: 17.8724 (17.8724)  loss_vfl: 1.1667 (1.1667)  loss_bbox: 0.2673 (0.2673)  loss_giou: 0.6637 (0.6637)  loss_vfl_aux_0: 0.9148 (0.9148)  loss_bbox_aux_0: 0.3272 (0.3272)  loss_giou_aux_0: 0.7220 (0.7220)  loss_vfl_aux_1: 1.0732 (1.0732)  loss_bbox_aux_1: 0.2901 (0.2901)  loss_giou_aux_1: 0.6871 (0.6871)  loss_vfl_aux_2: 1.0700 (1.0700)  loss_bbox_aux_2: 0.2863 (0.2863)  loss_giou_aux_2: 0.6759 (0.6759)  loss_vfl_aux_3: 0.9377 (0.9377)  loss_bbox_aux_3: 0.3672 (0.3672)  loss_giou_aux_3: 0.8156 (0.8156)  loss_vfl_dn_0: 0.3840 (0.3840)  loss_bbox_dn_0: 0.5502 (0.5502)  loss_giou_dn_0: 1.1482 (1.1482)  loss_vfl_dn_1: 0.4184 (0.4184)  loss_bbox_dn_1: 0.4921 (0.4921)  loss_giou_dn_1: 1.0065 (1.0065)  loss_vfl_dn_2: 0.4408 (0.4408)  loss_bbox_dn_2: 0.4648 (0.4648)  loss_giou_dn_2: 0.9165 (0.9165)  loss_vfl_dn_3: 0.4472 (0.4472)  loss_bbox_dn_3: 0.4574 (0.4574)  loss_giou_dn_3: 0.8815 (0.8815)  time: 0.9375  data: 0.6371  max mem: 4708
+Epoch: [6]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 17.2863 (17.6767)  loss_vfl: 0.9250 (0.8952)  loss_bbox: 0.2469 (0.2649)  loss_giou: 0.8421 (0.8851)  loss_vfl_aux_0: 0.7411 (0.7504)  loss_bbox_aux_0: 0.3134 (0.3074)  loss_giou_aux_0: 0.9492 (0.9653)  loss_vfl_aux_1: 0.8011 (0.8275)  loss_bbox_aux_1: 0.2741 (0.2814)  loss_giou_aux_1: 0.8840 (0.9102)  loss_vfl_aux_2: 0.8489 (0.8613)  loss_bbox_aux_2: 0.2561 (0.2686)  loss_giou_aux_2: 0.8594 (0.8907)  loss_vfl_aux_3: 0.6373 (0.6791)  loss_bbox_aux_3: 0.3657 (0.3594)  loss_giou_aux_3: 1.0230 (1.0712)  loss_vfl_dn_0: 0.3678 (0.3657)  loss_bbox_dn_0: 0.3606 (0.3796)  loss_giou_dn_0: 1.1895 (1.2075)  loss_vfl_dn_1: 0.3922 (0.3865)  loss_bbox_dn_1: 0.3385 (0.3571)  loss_giou_dn_1: 1.0791 (1.1175)  loss_vfl_dn_2: 0.4006 (0.3941)  loss_bbox_dn_2: 0.3417 (0.3507)  loss_giou_dn_2: 1.0536 (1.0801)  loss_vfl_dn_3: 0.4030 (0.3977)  loss_bbox_dn_3: 0.3430 (0.3520)  loss_giou_dn_3: 1.0435 (1.0705)  time: 0.2126  data: 0.0144  max mem: 4708
+Epoch: [6] Total time: 0:00:07 (0.2407 s / it)
+Averaged stats: lr: 0.000010  loss: 17.2863 (17.6767)  loss_vfl: 0.9250 (0.8952)  loss_bbox: 0.2469 (0.2649)  loss_giou: 0.8421 (0.8851)  loss_vfl_aux_0: 0.7411 (0.7504)  loss_bbox_aux_0: 0.3134 (0.3074)  loss_giou_aux_0: 0.9492 (0.9653)  loss_vfl_aux_1: 0.8011 (0.8275)  loss_bbox_aux_1: 0.2741 (0.2814)  loss_giou_aux_1: 0.8840 (0.9102)  loss_vfl_aux_2: 0.8489 (0.8613)  loss_bbox_aux_2: 0.2561 (0.2686)  loss_giou_aux_2: 0.8594 (0.8907)  loss_vfl_aux_3: 0.6373 (0.6791)  loss_bbox_aux_3: 0.3657 (0.3594)  loss_giou_aux_3: 1.0230 (1.0712)  loss_vfl_dn_0: 0.3678 (0.3657)  loss_bbox_dn_0: 0.3606 (0.3796)  loss_giou_dn_0: 1.1895 (1.2075)  loss_vfl_dn_1: 0.3922 (0.3865)  loss_bbox_dn_1: 0.3385 (0.3571)  loss_giou_dn_1: 1.0791 (1.1175)  loss_vfl_dn_2: 0.4006 (0.3941)  loss_bbox_dn_2: 0.3417 (0.3507)  loss_giou_dn_2: 1.0536 (1.0801)  loss_vfl_dn_3: 0.4030 (0.3977)  loss_bbox_dn_3: 0.3430 (0.3520)  loss_giou_dn_3: 1.0435 (1.0705)
+Test:  [0/6]  eta: 0:00:05    time: 0.9276  data: 0.6265  max mem: 4708
+Test:  [5/6]  eta: 0:00:00    time: 0.4411  data: 0.1247  max mem: 4708
+Test: Total time: 0:00:02 (0.4575 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.047
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.103
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.041
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.035
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.056
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.052
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.028
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.086
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.306
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.109
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.370
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.423
+best_stat:  {'epoch': 4, 'coco_eval_bbox': 0.05492795427784892}
+Epoch: [7]  [ 0/33]  eta: 0:00:28  lr: 0.000010  loss: 17.3186 (17.3186)  loss_vfl: 0.8258 (0.8258)  loss_bbox: 0.2727 (0.2727)  loss_giou: 0.8418 (0.8418)  loss_vfl_aux_0: 0.8311 (0.8311)  loss_bbox_aux_0: 0.2705 (0.2705)  loss_giou_aux_0: 0.8886 (0.8886)  loss_vfl_aux_1: 0.8441 (0.8441)  loss_bbox_aux_1: 0.2664 (0.2664)  loss_giou_aux_1: 0.8463 (0.8463)  loss_vfl_aux_2: 0.8073 (0.8073)  loss_bbox_aux_2: 0.2711 (0.2711)  loss_giou_aux_2: 0.8444 (0.8444)  loss_vfl_aux_3: 0.9197 (0.9197)  loss_bbox_aux_3: 0.3326 (0.3326)  loss_giou_aux_3: 1.0140 (1.0140)  loss_vfl_dn_0: 0.3930 (0.3930)  loss_bbox_dn_0: 0.3701 (0.3701)  loss_giou_dn_0: 1.1201 (1.1201)  loss_vfl_dn_1: 0.4169 (0.4169)  loss_bbox_dn_1: 0.3682 (0.3682)  loss_giou_dn_1: 1.0169 (1.0169)  loss_vfl_dn_2: 0.4214 (0.4214)  loss_bbox_dn_2: 0.3723 (0.3723)  loss_giou_dn_2: 0.9836 (0.9836)  loss_vfl_dn_3: 0.4250 (0.4250)  loss_bbox_dn_3: 0.3792 (0.3792)  loss_giou_dn_3: 0.9755 (0.9755)  time: 0.8608  data: 0.5553  max mem: 4708
+Epoch: [7]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 17.2636 (17.5155)  loss_vfl: 0.8968 (0.8635)  loss_bbox: 0.2462 (0.2641)  loss_giou: 0.8843 (0.9075)  loss_vfl_aux_0: 0.7332 (0.7484)  loss_bbox_aux_0: 0.2749 (0.2972)  loss_giou_aux_0: 0.9326 (0.9653)  loss_vfl_aux_1: 0.8170 (0.7989)  loss_bbox_aux_1: 0.2503 (0.2721)  loss_giou_aux_1: 0.9150 (0.9238)  loss_vfl_aux_2: 0.8467 (0.8385)  loss_bbox_aux_2: 0.2534 (0.2670)  loss_giou_aux_2: 0.8980 (0.9102)  loss_vfl_aux_3: 0.6717 (0.6720)  loss_bbox_aux_3: 0.3235 (0.3574)  loss_giou_aux_3: 1.0306 (1.0825)  loss_vfl_dn_0: 0.3748 (0.3705)  loss_bbox_dn_0: 0.3235 (0.3574)  loss_giou_dn_0: 1.1728 (1.1864)  loss_vfl_dn_1: 0.3906 (0.3867)  loss_bbox_dn_1: 0.3083 (0.3401)  loss_giou_dn_1: 1.0649 (1.1045)  loss_vfl_dn_2: 0.4038 (0.3934)  loss_bbox_dn_2: 0.3025 (0.3362)  loss_giou_dn_2: 1.0356 (1.0731)  loss_vfl_dn_3: 0.4106 (0.4007)  loss_bbox_dn_3: 0.3082 (0.3366)  loss_giou_dn_3: 1.0290 (1.0618)  time: 0.2157  data: 0.0149  max mem: 4708
+Epoch: [7] Total time: 0:00:07 (0.2400 s / it)
+Averaged stats: lr: 0.000010  loss: 17.2636 (17.5155)  loss_vfl: 0.8968 (0.8635)  loss_bbox: 0.2462 (0.2641)  loss_giou: 0.8843 (0.9075)  loss_vfl_aux_0: 0.7332 (0.7484)  loss_bbox_aux_0: 0.2749 (0.2972)  loss_giou_aux_0: 0.9326 (0.9653)  loss_vfl_aux_1: 0.8170 (0.7989)  loss_bbox_aux_1: 0.2503 (0.2721)  loss_giou_aux_1: 0.9150 (0.9238)  loss_vfl_aux_2: 0.8467 (0.8385)  loss_bbox_aux_2: 0.2534 (0.2670)  loss_giou_aux_2: 0.8980 (0.9102)  loss_vfl_aux_3: 0.6717 (0.6720)  loss_bbox_aux_3: 0.3235 (0.3574)  loss_giou_aux_3: 1.0306 (1.0825)  loss_vfl_dn_0: 0.3748 (0.3705)  loss_bbox_dn_0: 0.3235 (0.3574)  loss_giou_dn_0: 1.1728 (1.1864)  loss_vfl_dn_1: 0.3906 (0.3867)  loss_bbox_dn_1: 0.3083 (0.3401)  loss_giou_dn_1: 1.0649 (1.1045)  loss_vfl_dn_2: 0.4038 (0.3934)  loss_bbox_dn_2: 0.3025 (0.3362)  loss_giou_dn_2: 1.0356 (1.0731)  loss_vfl_dn_3: 0.4106 (0.4007)  loss_bbox_dn_3: 0.3082 (0.3366)  loss_giou_dn_3: 1.0290 (1.0618)
+Test:  [0/6]  eta: 0:00:05    time: 0.9479  data: 0.6298  max mem: 4708
+Test:  [5/6]  eta: 0:00:00    time: 0.3934  data: 0.1221  max mem: 4708
+Test: Total time: 0:00:02 (0.4079 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.071
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.139
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.069
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.052
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.082
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.089
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.032
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.103
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.359
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.184
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.421
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.419
+best_stat:  {'epoch': 7, 'coco_eval_bbox': 0.07089234689547794}
+Epoch: [8]  [ 0/33]  eta: 0:00:30  lr: 0.000010  loss: 18.5051 (18.5051)  loss_vfl: 1.0602 (1.0602)  loss_bbox: 0.2909 (0.2909)  loss_giou: 0.7126 (0.7126)  loss_vfl_aux_0: 0.8185 (0.8185)  loss_bbox_aux_0: 0.4167 (0.4167)  loss_giou_aux_0: 0.8234 (0.8234)  loss_vfl_aux_1: 0.9258 (0.9258)  loss_bbox_aux_1: 0.3306 (0.3306)  loss_giou_aux_1: 0.7497 (0.7497)  loss_vfl_aux_2: 1.0444 (1.0444)  loss_bbox_aux_2: 0.3074 (0.3074)  loss_giou_aux_2: 0.7010 (0.7010)  loss_vfl_aux_3: 0.8048 (0.8048)  loss_bbox_aux_3: 0.5037 (0.5037)  loss_giou_aux_3: 0.9453 (0.9453)  loss_vfl_dn_0: 0.3639 (0.3639)  loss_bbox_dn_0: 0.5743 (0.5743)  loss_giou_dn_0: 1.1654 (1.1654)  loss_vfl_dn_1: 0.3870 (0.3870)  loss_bbox_dn_1: 0.5534 (0.5534)  loss_giou_dn_1: 1.0798 (1.0798)  loss_vfl_dn_2: 0.4043 (0.4043)  loss_bbox_dn_2: 0.5435 (0.5435)  loss_giou_dn_2: 1.0338 (1.0338)  loss_vfl_dn_3: 0.4159 (0.4159)  loss_bbox_dn_3: 0.5407 (0.5407)  loss_giou_dn_3: 1.0079 (1.0079)  time: 0.9158  data: 0.6249  max mem: 4708
+Epoch: [8]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 17.3847 (17.2504)  loss_vfl: 0.9169 (0.9287)  loss_bbox: 0.2684 (0.2531)  loss_giou: 0.7759 (0.8406)  loss_vfl_aux_0: 0.7605 (0.7879)  loss_bbox_aux_0: 0.2758 (0.2885)  loss_giou_aux_0: 0.8680 (0.9051)  loss_vfl_aux_1: 0.8338 (0.8530)  loss_bbox_aux_1: 0.2734 (0.2658)  loss_giou_aux_1: 0.8137 (0.8644)  loss_vfl_aux_2: 0.8663 (0.8952)  loss_bbox_aux_2: 0.2644 (0.2574)  loss_giou_aux_2: 0.7927 (0.8480)  loss_vfl_aux_3: 0.7039 (0.7027)  loss_bbox_aux_3: 0.3252 (0.3380)  loss_giou_aux_3: 0.9811 (1.0137)  loss_vfl_dn_0: 0.3810 (0.3791)  loss_bbox_dn_0: 0.3303 (0.3633)  loss_giou_dn_0: 1.1439 (1.1528)  loss_vfl_dn_1: 0.4057 (0.3986)  loss_bbox_dn_1: 0.3078 (0.3409)  loss_giou_dn_1: 1.0298 (1.0577)  loss_vfl_dn_2: 0.4129 (0.4068)  loss_bbox_dn_2: 0.3106 (0.3350)  loss_giou_dn_2: 0.9813 (1.0199)  loss_vfl_dn_3: 0.4185 (0.4129)  loss_bbox_dn_3: 0.3121 (0.3345)  loss_giou_dn_3: 0.9624 (1.0070)  time: 0.2189  data: 0.0147  max mem: 4708
+Epoch: [8] Total time: 0:00:07 (0.2419 s / it)
+Averaged stats: lr: 0.000010  loss: 17.3847 (17.2504)  loss_vfl: 0.9169 (0.9287)  loss_bbox: 0.2684 (0.2531)  loss_giou: 0.7759 (0.8406)  loss_vfl_aux_0: 0.7605 (0.7879)  loss_bbox_aux_0: 0.2758 (0.2885)  loss_giou_aux_0: 0.8680 (0.9051)  loss_vfl_aux_1: 0.8338 (0.8530)  loss_bbox_aux_1: 0.2734 (0.2658)  loss_giou_aux_1: 0.8137 (0.8644)  loss_vfl_aux_2: 0.8663 (0.8952)  loss_bbox_aux_2: 0.2644 (0.2574)  loss_giou_aux_2: 0.7927 (0.8480)  loss_vfl_aux_3: 0.7039 (0.7027)  loss_bbox_aux_3: 0.3252 (0.3380)  loss_giou_aux_3: 0.9811 (1.0137)  loss_vfl_dn_0: 0.3810 (0.3791)  loss_bbox_dn_0: 0.3303 (0.3633)  loss_giou_dn_0: 1.1439 (1.1528)  loss_vfl_dn_1: 0.4057 (0.3986)  loss_bbox_dn_1: 0.3078 (0.3409)  loss_giou_dn_1: 1.0298 (1.0577)  loss_vfl_dn_2: 0.4129 (0.4068)  loss_bbox_dn_2: 0.3106 (0.3350)  loss_giou_dn_2: 0.9813 (1.0199)  loss_vfl_dn_3: 0.4185 (0.4129)  loss_bbox_dn_3: 0.3121 (0.3345)  loss_giou_dn_3: 0.9624 (1.0070)
+Test:  [0/6]  eta: 0:00:05    time: 0.9044  data: 0.6046  max mem: 4708
+Test:  [5/6]  eta: 0:00:00    time: 0.3854  data: 0.1245  max mem: 4708
+Test: Total time: 0:00:02 (0.4013 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.076
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.149
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.070
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.044
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.090
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.137
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.030
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.107
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.374
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.236
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.413
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.498
+best_stat:  {'epoch': 8, 'coco_eval_bbox': 0.07606236111074449}
+Epoch: [9]  [ 0/33]  eta: 0:00:33  lr: 0.000010  loss: 16.5435 (16.5435)  loss_vfl: 0.7479 (0.7479)  loss_bbox: 0.2226 (0.2226)  loss_giou: 0.9348 (0.9348)  loss_vfl_aux_0: 0.5995 (0.5995)  loss_bbox_aux_0: 0.2390 (0.2390)  loss_giou_aux_0: 1.0138 (1.0138)  loss_vfl_aux_1: 0.6691 (0.6691)  loss_bbox_aux_1: 0.2262 (0.2262)  loss_giou_aux_1: 0.9691 (0.9691)  loss_vfl_aux_2: 0.7170 (0.7170)  loss_bbox_aux_2: 0.2235 (0.2235)  loss_giou_aux_2: 0.9466 (0.9466)  loss_vfl_aux_3: 0.4714 (0.4714)  loss_bbox_aux_3: 0.3117 (0.3117)  loss_giou_aux_3: 1.1912 (1.1912)  loss_vfl_dn_0: 0.3722 (0.3722)  loss_bbox_dn_0: 0.2825 (0.2825)  loss_giou_dn_0: 1.1858 (1.1858)  loss_vfl_dn_1: 0.3851 (0.3851)  loss_bbox_dn_1: 0.2627 (0.2627)  loss_giou_dn_1: 1.1053 (1.1053)  loss_vfl_dn_2: 0.3963 (0.3963)  loss_bbox_dn_2: 0.2542 (0.2542)  loss_giou_dn_2: 1.0834 (1.0834)  loss_vfl_dn_3: 0.4047 (0.4047)  loss_bbox_dn_3: 0.2514 (0.2514)  loss_giou_dn_3: 1.0765 (1.0765)  time: 1.0035  data: 0.7295  max mem: 4708
+Epoch: [9]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 16.5946 (16.9667)  loss_vfl: 0.8891 (0.9268)  loss_bbox: 0.2086 (0.2346)  loss_giou: 0.7286 (0.7950)  loss_vfl_aux_0: 0.8051 (0.8171)  loss_bbox_aux_0: 0.2431 (0.2605)  loss_giou_aux_0: 0.7942 (0.8563)  loss_vfl_aux_1: 0.8589 (0.8694)  loss_bbox_aux_1: 0.2208 (0.2410)  loss_giou_aux_1: 0.7603 (0.8149)  loss_vfl_aux_2: 0.8860 (0.9065)  loss_bbox_aux_2: 0.2101 (0.2353)  loss_giou_aux_2: 0.7279 (0.7990)  loss_vfl_aux_3: 0.7409 (0.7241)  loss_bbox_aux_3: 0.3015 (0.3242)  loss_giou_aux_3: 0.9577 (0.9973)  loss_vfl_dn_0: 0.3851 (0.3807)  loss_bbox_dn_0: 0.3711 (0.3742)  loss_giou_dn_0: 1.1067 (1.1405)  loss_vfl_dn_1: 0.4097 (0.4018)  loss_bbox_dn_1: 0.3381 (0.3501)  loss_giou_dn_1: 0.9721 (1.0353)  loss_vfl_dn_2: 0.4177 (0.4097)  loss_bbox_dn_2: 0.3256 (0.3411)  loss_giou_dn_2: 0.9370 (0.9954)  loss_vfl_dn_3: 0.4261 (0.4167)  loss_bbox_dn_3: 0.3251 (0.3387)  loss_giou_dn_3: 0.9206 (0.9806)  time: 0.2155  data: 0.0151  max mem: 4708
+Epoch: [9] Total time: 0:00:08 (0.2454 s / it)
+Averaged stats: lr: 0.000010  loss: 16.5946 (16.9667)  loss_vfl: 0.8891 (0.9268)  loss_bbox: 0.2086 (0.2346)  loss_giou: 0.7286 (0.7950)  loss_vfl_aux_0: 0.8051 (0.8171)  loss_bbox_aux_0: 0.2431 (0.2605)  loss_giou_aux_0: 0.7942 (0.8563)  loss_vfl_aux_1: 0.8589 (0.8694)  loss_bbox_aux_1: 0.2208 (0.2410)  loss_giou_aux_1: 0.7603 (0.8149)  loss_vfl_aux_2: 0.8860 (0.9065)  loss_bbox_aux_2: 0.2101 (0.2353)  loss_giou_aux_2: 0.7279 (0.7990)  loss_vfl_aux_3: 0.7409 (0.7241)  loss_bbox_aux_3: 0.3015 (0.3242)  loss_giou_aux_3: 0.9577 (0.9973)  loss_vfl_dn_0: 0.3851 (0.3807)  loss_bbox_dn_0: 0.3711 (0.3742)  loss_giou_dn_0: 1.1067 (1.1405)  loss_vfl_dn_1: 0.4097 (0.4018)  loss_bbox_dn_1: 0.3381 (0.3501)  loss_giou_dn_1: 0.9721 (1.0353)  loss_vfl_dn_2: 0.4177 (0.4097)  loss_bbox_dn_2: 0.3256 (0.3411)  loss_giou_dn_2: 0.9370 (0.9954)  loss_vfl_dn_3: 0.4261 (0.4167)  loss_bbox_dn_3: 0.3251 (0.3387)  loss_giou_dn_3: 0.9206 (0.9806)
+Test:  [0/6]  eta: 0:00:05    time: 0.9005  data: 0.5988  max mem: 4708
+Test:  [5/6]  eta: 0:00:00    time: 0.4386  data: 0.1256  max mem: 4708
+Test: Total time: 0:00:02 (0.4570 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.089
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.192
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.078
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.057
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.106
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.178
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.026
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.115
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.398
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.260
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.444
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.465
+best_stat:  {'epoch': 9, 'coco_eval_bbox': 0.08934152567531914}
+Epoch: [10]  [ 0/33]  eta: 0:00:27  lr: 0.000010  loss: 17.3792 (17.3792)  loss_vfl: 0.7579 (0.7579)  loss_bbox: 0.3190 (0.3190)  loss_giou: 0.8653 (0.8653)  loss_vfl_aux_0: 0.6622 (0.6622)  loss_bbox_aux_0: 0.3205 (0.3205)  loss_giou_aux_0: 0.8975 (0.8975)  loss_vfl_aux_1: 0.7070 (0.7070)  loss_bbox_aux_1: 0.3189 (0.3189)  loss_giou_aux_1: 0.8793 (0.8793)  loss_vfl_aux_2: 0.7265 (0.7265)  loss_bbox_aux_2: 0.3211 (0.3211)  loss_giou_aux_2: 0.8725 (0.8725)  loss_vfl_aux_3: 0.6530 (0.6530)  loss_bbox_aux_3: 0.3541 (0.3541)  loss_giou_aux_3: 0.9774 (0.9774)  loss_vfl_dn_0: 0.3691 (0.3691)  loss_bbox_dn_0: 0.4619 (0.4619)  loss_giou_dn_0: 1.1816 (1.1816)  loss_vfl_dn_1: 0.3845 (0.3845)  loss_bbox_dn_1: 0.4400 (0.4400)  loss_giou_dn_1: 1.1080 (1.1080)  loss_vfl_dn_2: 0.3909 (0.3909)  loss_bbox_dn_2: 0.4328 (0.4328)  loss_giou_dn_2: 1.0793 (1.0793)  loss_vfl_dn_3: 0.3999 (0.3999)  loss_bbox_dn_3: 0.4309 (0.4309)  loss_giou_dn_3: 1.0683 (1.0683)  time: 0.8455  data: 0.5815  max mem: 4708
+Epoch: [10]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 16.4973 (17.1667)  loss_vfl: 0.8354 (0.9254)  loss_bbox: 0.2017 (0.2296)  loss_giou: 0.8525 (0.8381)  loss_vfl_aux_0: 0.7411 (0.7918)  loss_bbox_aux_0: 0.2281 (0.2607)  loss_giou_aux_0: 0.8981 (0.9060)  loss_vfl_aux_1: 0.7691 (0.8559)  loss_bbox_aux_1: 0.2201 (0.2457)  loss_giou_aux_1: 0.8642 (0.8677)  loss_vfl_aux_2: 0.8002 (0.8936)  loss_bbox_aux_2: 0.2069 (0.2357)  loss_giou_aux_2: 0.8587 (0.8484)  loss_vfl_aux_3: 0.6466 (0.7260)  loss_bbox_aux_3: 0.2722 (0.3219)  loss_giou_aux_3: 1.0116 (1.0338)  loss_vfl_dn_0: 0.3717 (0.3778)  loss_bbox_dn_0: 0.3020 (0.3628)  loss_giou_dn_0: 1.1538 (1.1519)  loss_vfl_dn_1: 0.3938 (0.3978)  loss_bbox_dn_1: 0.2955 (0.3388)  loss_giou_dn_1: 1.0358 (1.0566)  loss_vfl_dn_2: 0.4041 (0.4037)  loss_bbox_dn_2: 0.2916 (0.3290)  loss_giou_dn_2: 0.9946 (1.0229)  loss_vfl_dn_3: 0.4104 (0.4078)  loss_bbox_dn_3: 0.2816 (0.3261)  loss_giou_dn_3: 0.9827 (1.0112)  time: 0.2173  data: 0.0171  max mem: 4708
+Epoch: [10] Total time: 0:00:07 (0.2401 s / it)
+Averaged stats: lr: 0.000010  loss: 16.4973 (17.1667)  loss_vfl: 0.8354 (0.9254)  loss_bbox: 0.2017 (0.2296)  loss_giou: 0.8525 (0.8381)  loss_vfl_aux_0: 0.7411 (0.7918)  loss_bbox_aux_0: 0.2281 (0.2607)  loss_giou_aux_0: 0.8981 (0.9060)  loss_vfl_aux_1: 0.7691 (0.8559)  loss_bbox_aux_1: 0.2201 (0.2457)  loss_giou_aux_1: 0.8642 (0.8677)  loss_vfl_aux_2: 0.8002 (0.8936)  loss_bbox_aux_2: 0.2069 (0.2357)  loss_giou_aux_2: 0.8587 (0.8484)  loss_vfl_aux_3: 0.6466 (0.7260)  loss_bbox_aux_3: 0.2722 (0.3219)  loss_giou_aux_3: 1.0116 (1.0338)  loss_vfl_dn_0: 0.3717 (0.3778)  loss_bbox_dn_0: 0.3020 (0.3628)  loss_giou_dn_0: 1.1538 (1.1519)  loss_vfl_dn_1: 0.3938 (0.3978)  loss_bbox_dn_1: 0.2955 (0.3388)  loss_giou_dn_1: 1.0358 (1.0566)  loss_vfl_dn_2: 0.4041 (0.4037)  loss_bbox_dn_2: 0.2916 (0.3290)  loss_giou_dn_2: 0.9946 (1.0229)  loss_vfl_dn_3: 0.4104 (0.4078)  loss_bbox_dn_3: 0.2816 (0.3261)  loss_giou_dn_3: 0.9827 (1.0112)
+Test:  [0/6]  eta: 0:00:05    time: 0.9679  data: 0.6603  max mem: 4708
+Test:  [5/6]  eta: 0:00:00    time: 0.3892  data: 0.1236  max mem: 4708
+Test: Total time: 0:00:02 (0.4049 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.090
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.178
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.086
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.057
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.104
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.126
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.031
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.128
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.394
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.255
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.436
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.512
+best_stat:  {'epoch': 10, 'coco_eval_bbox': 0.08990813175780758}
+Epoch: [11]  [ 0/33]  eta: 0:01:39  lr: 0.000010  loss: 16.7043 (16.7043)  loss_vfl: 0.8147 (0.8147)  loss_bbox: 0.2343 (0.2343)  loss_giou: 0.9702 (0.9702)  loss_vfl_aux_0: 0.6375 (0.6375)  loss_bbox_aux_0: 0.2707 (0.2707)  loss_giou_aux_0: 1.0321 (1.0321)  loss_vfl_aux_1: 0.7089 (0.7089)  loss_bbox_aux_1: 0.2462 (0.2462)  loss_giou_aux_1: 0.9839 (0.9839)  loss_vfl_aux_2: 0.7679 (0.7679)  loss_bbox_aux_2: 0.2520 (0.2520)  loss_giou_aux_2: 0.9715 (0.9715)  loss_vfl_aux_3: 0.5547 (0.5547)  loss_bbox_aux_3: 0.3227 (0.3227)  loss_giou_aux_3: 1.1147 (1.1147)  loss_vfl_dn_0: 0.3944 (0.3944)  loss_bbox_dn_0: 0.2927 (0.2927)  loss_giou_dn_0: 1.1046 (1.1046)  loss_vfl_dn_1: 0.4094 (0.4094)  loss_bbox_dn_1: 0.2665 (0.2665)  loss_giou_dn_1: 1.0298 (1.0298)  loss_vfl_dn_2: 0.4158 (0.4158)  loss_bbox_dn_2: 0.2568 (0.2568)  loss_giou_dn_2: 0.9959 (0.9959)  loss_vfl_dn_3: 0.4117 (0.4117)  loss_bbox_dn_3: 0.2559 (0.2559)  loss_giou_dn_3: 0.9888 (0.9888)  time: 3.0218  data: 2.7784  max mem: 4708
+Epoch: [11]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 16.5102 (16.9595)  loss_vfl: 0.9323 (0.9455)  loss_bbox: 0.2075 (0.2406)  loss_giou: 0.7377 (0.7875)  loss_vfl_aux_0: 0.8294 (0.8185)  loss_bbox_aux_0: 0.2323 (0.2706)  loss_giou_aux_0: 0.8317 (0.8555)  loss_vfl_aux_1: 0.8867 (0.8780)  loss_bbox_aux_1: 0.2090 (0.2503)  loss_giou_aux_1: 0.7649 (0.8110)  loss_vfl_aux_2: 0.8896 (0.9185)  loss_bbox_aux_2: 0.2055 (0.2453)  loss_giou_aux_2: 0.7489 (0.7953)  loss_vfl_aux_3: 0.7645 (0.7498)  loss_bbox_aux_3: 0.2792 (0.3374)  loss_giou_aux_3: 0.9221 (0.9854)  loss_vfl_dn_0: 0.3888 (0.3855)  loss_bbox_dn_0: 0.3184 (0.3766)  loss_giou_dn_0: 1.0959 (1.1183)  loss_vfl_dn_1: 0.4150 (0.4105)  loss_bbox_dn_1: 0.2973 (0.3519)  loss_giou_dn_1: 0.9675 (0.9996)  loss_vfl_dn_2: 0.4258 (0.4200)  loss_bbox_dn_2: 0.2866 (0.3423)  loss_giou_dn_2: 0.9175 (0.9579)  loss_vfl_dn_3: 0.4300 (0.4230)  loss_bbox_dn_3: 0.2813 (0.3395)  loss_giou_dn_3: 0.9109 (0.9451)  time: 0.2154  data: 0.0142  max mem: 4711
+Epoch: [11] Total time: 0:00:10 (0.3061 s / it)
+Averaged stats: lr: 0.000010  loss: 16.5102 (16.9595)  loss_vfl: 0.9323 (0.9455)  loss_bbox: 0.2075 (0.2406)  loss_giou: 0.7377 (0.7875)  loss_vfl_aux_0: 0.8294 (0.8185)  loss_bbox_aux_0: 0.2323 (0.2706)  loss_giou_aux_0: 0.8317 (0.8555)  loss_vfl_aux_1: 0.8867 (0.8780)  loss_bbox_aux_1: 0.2090 (0.2503)  loss_giou_aux_1: 0.7649 (0.8110)  loss_vfl_aux_2: 0.8896 (0.9185)  loss_bbox_aux_2: 0.2055 (0.2453)  loss_giou_aux_2: 0.7489 (0.7953)  loss_vfl_aux_3: 0.7645 (0.7498)  loss_bbox_aux_3: 0.2792 (0.3374)  loss_giou_aux_3: 0.9221 (0.9854)  loss_vfl_dn_0: 0.3888 (0.3855)  loss_bbox_dn_0: 0.3184 (0.3766)  loss_giou_dn_0: 1.0959 (1.1183)  loss_vfl_dn_1: 0.4150 (0.4105)  loss_bbox_dn_1: 0.2973 (0.3519)  loss_giou_dn_1: 0.9675 (0.9996)  loss_vfl_dn_2: 0.4258 (0.4200)  loss_bbox_dn_2: 0.2866 (0.3423)  loss_giou_dn_2: 0.9175 (0.9579)  loss_vfl_dn_3: 0.4300 (0.4230)  loss_bbox_dn_3: 0.2813 (0.3395)  loss_giou_dn_3: 0.9109 (0.9451)
+Test:  [0/6]  eta: 0:00:05    time: 0.8785  data: 0.5878  max mem: 4711
+Test:  [5/6]  eta: 0:00:00    time: 0.3752  data: 0.1211  max mem: 4711
+Test: Total time: 0:00:02 (0.3910 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.098
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.201
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.085
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.058
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.120
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.186
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.033
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.133
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.417
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.262
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.469
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.505
+best_stat:  {'epoch': 11, 'coco_eval_bbox': 0.09791641306210516}
+Epoch: [12]  [ 0/33]  eta: 0:00:28  lr: 0.000010  loss: 16.2443 (16.2443)  loss_vfl: 1.0157 (1.0157)  loss_bbox: 0.1871 (0.1871)  loss_giou: 0.7302 (0.7302)  loss_vfl_aux_0: 0.8319 (0.8319)  loss_bbox_aux_0: 0.2080 (0.2080)  loss_giou_aux_0: 0.7685 (0.7685)  loss_vfl_aux_1: 0.9381 (0.9381)  loss_bbox_aux_1: 0.1886 (0.1886)  loss_giou_aux_1: 0.7370 (0.7370)  loss_vfl_aux_2: 1.0010 (1.0010)  loss_bbox_aux_2: 0.1903 (0.1903)  loss_giou_aux_2: 0.7405 (0.7405)  loss_vfl_aux_3: 0.7645 (0.7645)  loss_bbox_aux_3: 0.2543 (0.2543)  loss_giou_aux_3: 0.8552 (0.8552)  loss_vfl_dn_0: 0.3978 (0.3978)  loss_bbox_dn_0: 0.3297 (0.3297)  loss_giou_dn_0: 1.0855 (1.0855)  loss_vfl_dn_1: 0.4230 (0.4230)  loss_bbox_dn_1: 0.3105 (0.3105)  loss_giou_dn_1: 0.9761 (0.9761)  loss_vfl_dn_2: 0.4283 (0.4283)  loss_bbox_dn_2: 0.3051 (0.3051)  loss_giou_dn_2: 0.9334 (0.9334)  loss_vfl_dn_3: 0.4285 (0.4285)  loss_bbox_dn_3: 0.3017 (0.3017)  loss_giou_dn_3: 0.9138 (0.9138)  time: 0.8746  data: 0.6195  max mem: 4711
+Epoch: [12]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 16.2874 (16.6217)  loss_vfl: 0.9000 (0.9570)  loss_bbox: 0.2163 (0.2248)  loss_giou: 0.7534 (0.7745)  loss_vfl_aux_0: 0.7746 (0.8164)  loss_bbox_aux_0: 0.2526 (0.2539)  loss_giou_aux_0: 0.8379 (0.8412)  loss_vfl_aux_1: 0.8586 (0.8912)  loss_bbox_aux_1: 0.2308 (0.2362)  loss_giou_aux_1: 0.7662 (0.7993)  loss_vfl_aux_2: 0.8822 (0.9339)  loss_bbox_aux_2: 0.2219 (0.2265)  loss_giou_aux_2: 0.7562 (0.7807)  loss_vfl_aux_3: 0.7240 (0.7507)  loss_bbox_aux_3: 0.2936 (0.3032)  loss_giou_aux_3: 0.9371 (0.9566)  loss_vfl_dn_0: 0.3938 (0.3920)  loss_bbox_dn_0: 0.3162 (0.3528)  loss_giou_dn_0: 1.0857 (1.0904)  loss_vfl_dn_1: 0.4207 (0.4154)  loss_bbox_dn_1: 0.2918 (0.3254)  loss_giou_dn_1: 0.9650 (0.9726)  loss_vfl_dn_2: 0.4277 (0.4231)  loss_bbox_dn_2: 0.2828 (0.3168)  loss_giou_dn_2: 0.9173 (0.9288)  loss_vfl_dn_3: 0.4309 (0.4256)  loss_bbox_dn_3: 0.2762 (0.3150)  loss_giou_dn_3: 0.9061 (0.9176)  time: 0.2151  data: 0.0141  max mem: 4711
+Epoch: [12] Total time: 0:00:08 (0.2465 s / it)
+Averaged stats: lr: 0.000010  loss: 16.2874 (16.6217)  loss_vfl: 0.9000 (0.9570)  loss_bbox: 0.2163 (0.2248)  loss_giou: 0.7534 (0.7745)  loss_vfl_aux_0: 0.7746 (0.8164)  loss_bbox_aux_0: 0.2526 (0.2539)  loss_giou_aux_0: 0.8379 (0.8412)  loss_vfl_aux_1: 0.8586 (0.8912)  loss_bbox_aux_1: 0.2308 (0.2362)  loss_giou_aux_1: 0.7662 (0.7993)  loss_vfl_aux_2: 0.8822 (0.9339)  loss_bbox_aux_2: 0.2219 (0.2265)  loss_giou_aux_2: 0.7562 (0.7807)  loss_vfl_aux_3: 0.7240 (0.7507)  loss_bbox_aux_3: 0.2936 (0.3032)  loss_giou_aux_3: 0.9371 (0.9566)  loss_vfl_dn_0: 0.3938 (0.3920)  loss_bbox_dn_0: 0.3162 (0.3528)  loss_giou_dn_0: 1.0857 (1.0904)  loss_vfl_dn_1: 0.4207 (0.4154)  loss_bbox_dn_1: 0.2918 (0.3254)  loss_giou_dn_1: 0.9650 (0.9726)  loss_vfl_dn_2: 0.4277 (0.4231)  loss_bbox_dn_2: 0.2828 (0.3168)  loss_giou_dn_2: 0.9173 (0.9288)  loss_vfl_dn_3: 0.4309 (0.4256)  loss_bbox_dn_3: 0.2762 (0.3150)  loss_giou_dn_3: 0.9061 (0.9176)
+Test:  [0/6]  eta: 0:00:05    time: 0.8786  data: 0.5861  max mem: 4711
+Test:  [5/6]  eta: 0:00:00    time: 0.4288  data: 0.1201  max mem: 4711
+Test: Total time: 0:00:02 (0.4465 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.099
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.199
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.091
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.056
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.116
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.161
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.029
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.123
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.400
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.238
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.445
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.565
+best_stat:  {'epoch': 12, 'coco_eval_bbox': 0.09887327580189492}
+Epoch: [13]  [ 0/33]  eta: 0:00:31  lr: 0.000010  loss: 16.3710 (16.3710)  loss_vfl: 0.6901 (0.6901)  loss_bbox: 0.1941 (0.1941)  loss_giou: 1.0193 (1.0193)  loss_vfl_aux_0: 0.6495 (0.6495)  loss_bbox_aux_0: 0.2031 (0.2031)  loss_giou_aux_0: 1.0749 (1.0749)  loss_vfl_aux_1: 0.6803 (0.6803)  loss_bbox_aux_1: 0.2041 (0.2041)  loss_giou_aux_1: 1.0334 (1.0334)  loss_vfl_aux_2: 0.6938 (0.6938)  loss_bbox_aux_2: 0.1932 (0.1932)  loss_giou_aux_2: 1.0319 (1.0319)  loss_vfl_aux_3: 0.5845 (0.5845)  loss_bbox_aux_3: 0.2247 (0.2247)  loss_giou_aux_3: 1.1709 (1.1709)  loss_vfl_dn_0: 0.3873 (0.3873)  loss_bbox_dn_0: 0.2203 (0.2203)  loss_giou_dn_0: 1.1371 (1.1371)  loss_vfl_dn_1: 0.3950 (0.3950)  loss_bbox_dn_1: 0.2059 (0.2059)  loss_giou_dn_1: 1.0686 (1.0686)  loss_vfl_dn_2: 0.3881 (0.3881)  loss_bbox_dn_2: 0.2041 (0.2041)  loss_giou_dn_2: 1.0631 (1.0631)  loss_vfl_dn_3: 0.3852 (0.3852)  loss_bbox_dn_3: 0.2048 (0.2048)  loss_giou_dn_3: 1.0635 (1.0635)  time: 0.9430  data: 0.6932  max mem: 4711
+Epoch: [13]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 16.2170 (16.5900)  loss_vfl: 0.8928 (0.9140)  loss_bbox: 0.2014 (0.2156)  loss_giou: 0.7802 (0.8195)  loss_vfl_aux_0: 0.7765 (0.8013)  loss_bbox_aux_0: 0.2274 (0.2437)  loss_giou_aux_0: 0.8668 (0.8873)  loss_vfl_aux_1: 0.8589 (0.8632)  loss_bbox_aux_1: 0.2077 (0.2243)  loss_giou_aux_1: 0.8000 (0.8417)  loss_vfl_aux_2: 0.8893 (0.8950)  loss_bbox_aux_2: 0.2017 (0.2171)  loss_giou_aux_2: 0.7737 (0.8239)  loss_vfl_aux_3: 0.7077 (0.7318)  loss_bbox_aux_3: 0.2986 (0.2911)  loss_giou_aux_3: 0.9656 (1.0021)  loss_vfl_dn_0: 0.3905 (0.3913)  loss_bbox_dn_0: 0.3282 (0.3161)  loss_giou_dn_0: 1.0916 (1.0993)  loss_vfl_dn_1: 0.4129 (0.4091)  loss_bbox_dn_1: 0.3050 (0.2912)  loss_giou_dn_1: 0.9908 (0.9983)  loss_vfl_dn_2: 0.4207 (0.4143)  loss_bbox_dn_2: 0.2928 (0.2831)  loss_giou_dn_2: 0.9379 (0.9627)  loss_vfl_dn_3: 0.4222 (0.4177)  loss_bbox_dn_3: 0.2872 (0.2816)  loss_giou_dn_3: 0.9304 (0.9538)  time: 0.2138  data: 0.0155  max mem: 4711
+Epoch: [13] Total time: 0:00:07 (0.2404 s / it)
+Averaged stats: lr: 0.000010  loss: 16.2170 (16.5900)  loss_vfl: 0.8928 (0.9140)  loss_bbox: 0.2014 (0.2156)  loss_giou: 0.7802 (0.8195)  loss_vfl_aux_0: 0.7765 (0.8013)  loss_bbox_aux_0: 0.2274 (0.2437)  loss_giou_aux_0: 0.8668 (0.8873)  loss_vfl_aux_1: 0.8589 (0.8632)  loss_bbox_aux_1: 0.2077 (0.2243)  loss_giou_aux_1: 0.8000 (0.8417)  loss_vfl_aux_2: 0.8893 (0.8950)  loss_bbox_aux_2: 0.2017 (0.2171)  loss_giou_aux_2: 0.7737 (0.8239)  loss_vfl_aux_3: 0.7077 (0.7318)  loss_bbox_aux_3: 0.2986 (0.2911)  loss_giou_aux_3: 0.9656 (1.0021)  loss_vfl_dn_0: 0.3905 (0.3913)  loss_bbox_dn_0: 0.3282 (0.3161)  loss_giou_dn_0: 1.0916 (1.0993)  loss_vfl_dn_1: 0.4129 (0.4091)  loss_bbox_dn_1: 0.3050 (0.2912)  loss_giou_dn_1: 0.9908 (0.9983)  loss_vfl_dn_2: 0.4207 (0.4143)  loss_bbox_dn_2: 0.2928 (0.2831)  loss_giou_dn_2: 0.9379 (0.9627)  loss_vfl_dn_3: 0.4222 (0.4177)  loss_bbox_dn_3: 0.2872 (0.2816)  loss_giou_dn_3: 0.9304 (0.9538)
+Test:  [0/6]  eta: 0:00:05    time: 0.9090  data: 0.6082  max mem: 4711
+Test:  [5/6]  eta: 0:00:00    time: 0.3749  data: 0.1200  max mem: 4711
+Test: Total time: 0:00:02 (0.3911 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.117
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.226
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.107
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.075
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.137
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.147
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.034
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.147
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.410
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.246
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.454
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.588
+best_stat:  {'epoch': 13, 'coco_eval_bbox': 0.11722361250617479}
+Epoch: [14]  [ 0/33]  eta: 0:00:45  lr: 0.000010  loss: 16.9292 (16.9292)  loss_vfl: 0.9688 (0.9688)  loss_bbox: 0.2313 (0.2313)  loss_giou: 0.7571 (0.7571)  loss_vfl_aux_0: 0.7753 (0.7753)  loss_bbox_aux_0: 0.2645 (0.2645)  loss_giou_aux_0: 0.8354 (0.8354)  loss_vfl_aux_1: 0.9161 (0.9161)  loss_bbox_aux_1: 0.2443 (0.2443)  loss_giou_aux_1: 0.7915 (0.7915)  loss_vfl_aux_2: 0.9327 (0.9327)  loss_bbox_aux_2: 0.2412 (0.2412)  loss_giou_aux_2: 0.7683 (0.7683)  loss_vfl_aux_3: 0.6883 (0.6883)  loss_bbox_aux_3: 0.3035 (0.3035)  loss_giou_aux_3: 0.8951 (0.8951)  loss_vfl_dn_0: 0.3766 (0.3766)  loss_bbox_dn_0: 0.4187 (0.4187)  loss_giou_dn_0: 1.1329 (1.1329)  loss_vfl_dn_1: 0.4013 (0.4013)  loss_bbox_dn_1: 0.3879 (0.3879)  loss_giou_dn_1: 1.0294 (1.0294)  loss_vfl_dn_2: 0.4083 (0.4083)  loss_bbox_dn_2: 0.3794 (0.3794)  loss_giou_dn_2: 0.9978 (0.9978)  loss_vfl_dn_3: 0.4151 (0.4151)  loss_bbox_dn_3: 0.3772 (0.3772)  loss_giou_dn_3: 0.9912 (0.9912)  time: 1.3765  data: 1.1270  max mem: 4711
+Epoch: [14]  [32/33]  eta: 0:00:00  lr: 0.000010  loss: 16.0713 (16.3618)  loss_vfl: 0.9036 (0.9333)  loss_bbox: 0.1890 (0.2140)  loss_giou: 0.7797 (0.7747)  loss_vfl_aux_0: 0.7932 (0.8177)  loss_bbox_aux_0: 0.2184 (0.2350)  loss_giou_aux_0: 0.8615 (0.8377)  loss_vfl_aux_1: 0.8657 (0.8899)  loss_bbox_aux_1: 0.2016 (0.2229)  loss_giou_aux_1: 0.8206 (0.7947)  loss_vfl_aux_2: 0.8743 (0.9194)  loss_bbox_aux_2: 0.1956 (0.2176)  loss_giou_aux_2: 0.8001 (0.7811)  loss_vfl_aux_3: 0.7258 (0.7442)  loss_bbox_aux_3: 0.2621 (0.2876)  loss_giou_aux_3: 0.9561 (0.9513)  loss_vfl_dn_0: 0.3930 (0.3938)  loss_bbox_dn_0: 0.2964 (0.3247)  loss_giou_dn_0: 1.0899 (1.0786)  loss_vfl_dn_1: 0.4076 (0.4140)  loss_bbox_dn_1: 0.2655 (0.2989)  loss_giou_dn_1: 0.9678 (0.9662)  loss_vfl_dn_2: 0.4182 (0.4211)  loss_bbox_dn_2: 0.2544 (0.2898)  loss_giou_dn_2: 0.9238 (0.9270)  loss_vfl_dn_3: 0.4183 (0.4235)  loss_bbox_dn_3: 0.2522 (0.2864)  loss_giou_dn_3: 0.9256 (0.9168)  time: 0.2348  data: 0.0153  max mem: 4711
+Epoch: [14] Total time: 0:00:08 (0.2676 s / it)
+Averaged stats: lr: 0.000010  loss: 16.0713 (16.3618)  loss_vfl: 0.9036 (0.9333)  loss_bbox: 0.1890 (0.2140)  loss_giou: 0.7797 (0.7747)  loss_vfl_aux_0: 0.7932 (0.8177)  loss_bbox_aux_0: 0.2184 (0.2350)  loss_giou_aux_0: 0.8615 (0.8377)  loss_vfl_aux_1: 0.8657 (0.8899)  loss_bbox_aux_1: 0.2016 (0.2229)  loss_giou_aux_1: 0.8206 (0.7947)  loss_vfl_aux_2: 0.8743 (0.9194)  loss_bbox_aux_2: 0.1956 (0.2176)  loss_giou_aux_2: 0.8001 (0.7811)  loss_vfl_aux_3: 0.7258 (0.7442)  loss_bbox_aux_3: 0.2621 (0.2876)  loss_giou_aux_3: 0.9561 (0.9513)  loss_vfl_dn_0: 0.3930 (0.3938)  loss_bbox_dn_0: 0.2964 (0.3247)  loss_giou_dn_0: 1.0899 (1.0786)  loss_vfl_dn_1: 0.4076 (0.4140)  loss_bbox_dn_1: 0.2655 (0.2989)  loss_giou_dn_1: 0.9678 (0.9662)  loss_vfl_dn_2: 0.4182 (0.4211)  loss_bbox_dn_2: 0.2544 (0.2898)  loss_giou_dn_2: 0.9238 (0.9270)  loss_vfl_dn_3: 0.4183 (0.4235)  loss_bbox_dn_3: 0.2522 (0.2864)  loss_giou_dn_3: 0.9256 (0.9168)
+Test:  [0/6]  eta: 0:00:05    time: 0.9079  data: 0.6169  max mem: 4711
+Test:  [5/6]  eta: 0:00:00    time: 0.3760  data: 0.1220  max mem: 4711
+Test: Total time: 0:00:02 (0.3920 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.105
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.206
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.103
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.071
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.120
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.152
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.035
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.142
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.407
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.256
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.446
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.582
+best_stat:  {'epoch': 13, 'coco_eval_bbox': 0.11722361250617479}
