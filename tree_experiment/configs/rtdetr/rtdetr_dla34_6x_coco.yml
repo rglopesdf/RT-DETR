@@ -6,5 +6,7 @@ __include__: [
   './include/rtdetr_dla34.yml',
 ]
 
+
+
 output_dir: ./output/rtdetr_dla34_6x_coco
 #output_dir: /content/drive/MyDrive/Phd/Deeplearning/trab1/rt-detr/checkpoints/rtdetr_dla34_6x_coco
