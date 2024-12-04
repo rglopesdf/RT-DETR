@@ -1,0 +1,13 @@
+Not init distributed mode.
+Start training
+Load PResNet101 state_dict
+Initial lr:  [1e-06, 0.0001]
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+number of params: 76365411
