@@ -1,0 +1,5 @@
+Not init distributed mode.
+Start training
+Load PResNet50 state_dict
+Initial lr:  [1e-05, 0.0001, 0.0001, 0.0001]
+Resume checkpoint from /content/drive/MyDrive/Phd/Deeplearning/trab1/rt-detr/train/checkpoints_0/rtdetr_r50vd_m_6x_coco/checkpoint_rtdetr_r50vd_m_6x_coco_last.pth
