@@ -1,0 +1,29 @@
+Not init distributed mode.
+Load PResNet34 state_dict
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+resume from /content/drive/MyDrive/Phd/Deeplearning/trab1/rt-detr/train/checkpoints_4/rtdetr_r34vd_6x_coco/checkpoint_rtdetr_r34vd_6x_coco_last.pth
+Loading last_epoch
+Loading model.state_dict
+Loading ema.state_dict
+Test:  [0/6]  eta: 0:00:12    time: 2.0191  data: 0.4689  max mem: 779
+Test:  [5/6]  eta: 0:00:00    time: 0.5459  data: 0.0970  max mem: 787
+Test: Total time: 0:00:03 (0.5533 s / it)
+Averaged stats: 
+Accumulating evaluation results...
+DONE (t=0.05s).
+IoU metric: bbox
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.352
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.680
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.329
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.221
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.405
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.603
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.047
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.310
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.490
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.353
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.543
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.744
