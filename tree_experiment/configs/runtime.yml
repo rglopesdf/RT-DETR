@@ -16,4 +16,4 @@ ema:
   warmups: 2000
 
 
-
+checkpoint_step: 10
