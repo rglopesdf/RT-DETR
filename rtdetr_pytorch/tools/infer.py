@@ -176,8 +176,8 @@ def main(args, ):
     else:
         output = model(im_data, orig_size)
         labels, boxes, scores = output
-        
-    draw([im_pil], labels, boxes, scores, 0.6)
+    
+    draw([im_pil], labels, boxes, scores, 0.6, path = args.output)
   
 if __name__ == '__main__':
     import argparse
@@ -185,6 +185,7 @@ if __name__ == '__main__':
     parser.add_argument('-c', '--config', type=str, )
     parser.add_argument('-r', '--resume', type=str, )
     parser.add_argument('-f', '--im-file', type=str, )
+    parser.add_argument('-o', '--output', type=str, default = './', help="Directory to save processed images")
     parser.add_argument('-s', '--sliced', type=bool, default=False)
     parser.add_argument('-d', '--device', type=str, default='cpu')
     parser.add_argument('-nc', '--numberofboxes', type=int, default=25)
