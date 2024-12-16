@@ -13,8 +13,8 @@ train_dataloader:
   type: DataLoader
   dataset: 
     type: CocoDetection
-    img_folder: ../tree_experiment/dataset/images/0/train_val/
-    ann_file: ../tree_experiment/dataset/annotations/1/instances_train_val_bd.json
+    img_folder: ../tree_experiment/dataset/images/4/train/
+    ann_file: ../tree_experiment/dataset/annotations/4/instances_train_bd.json
     return_masks: False
     transforms:
       type: Compose
@@ -30,8 +30,8 @@ val_dataloader:
   type: DataLoader
   dataset: 
     type: CocoDetection
-    img_folder: ../tree_experiment/dataset/images/0/test/
-    ann_file: ../tree_experiment/dataset/annotations/0/instances_test_bd.json
+    img_folder: ../tree_experiment/dataset/images/4/val/
+    ann_file: ../tree_experiment/dataset/annotations/4/instances_val_bd.json
     return_masks: False
     transforms:
       type: Compose
