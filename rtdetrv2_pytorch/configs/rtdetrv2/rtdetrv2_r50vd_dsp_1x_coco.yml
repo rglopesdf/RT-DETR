@@ -16,12 +16,12 @@ RTDETRTransformerv2:
   cross_attn_method: discrete
 
 
-epoches: 12
+#epoches: 12
 
-train_dataloader: 
-  dataset: 
-    transforms:
-      policy:
-        epoch: 10
-  collate_fn:
-    stop_epoch: 10
+#train_dataloader: 
+#  dataset: 
+#    transforms:
+#      policy:
+#        epoch: 10
+#  collate_fn:
+#    stop_epoch: 10

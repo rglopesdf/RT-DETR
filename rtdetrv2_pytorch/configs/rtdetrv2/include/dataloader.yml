@@ -14,7 +14,7 @@ train_dataloader:
         - {type: ConvertBoxes, fmt: 'cxcywh', normalize: True}
       policy:
         name: stop_epoch
-        epoch: 71 # epoch in [71, ~) stop `ops`
+        epoch: 1 # epoch in [71, ~) stop `ops`
         ops: ['RandomPhotometricDistort', 'RandomZoomOut', 'RandomIoUCrop']
   
   collate_fn:
@@ -34,5 +34,17 @@ val_dataloader:
         - {type: Resize, size: [640, 640]}
         - {type: ConvertPILImage, dtype: 'float32', scale: True}   
   shuffle: False
-  total_batch_size: 32
+  total_batch_size: 1
+#  total_batch_size: 16
+  num_workers: 4
+
+
+test_dataloader:
+  dataset: 
+    transforms:
+      ops: 
+        - {type: Resize, size: [640, 640]}
+        - {type: ConvertPILImage, dtype: 'float32', scale: True}   
+  shuffle: False
+  total_batch_size: 1
   num_workers: 4
